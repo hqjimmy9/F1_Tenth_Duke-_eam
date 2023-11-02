@@ -1,6 +1,6 @@
 Title: Setting up F1TENTH Gym Environment with ROS2 Communication Bridge
 
-Description: This guide provides step-by-step instructions on how to set up the F1TENTH Gym environment with a ROS2 communication bridge on different systems including Ubuntu (with or without NVIDIA GPU), Windows 10, and macOS. By following this guide, you'll have a containerized ROS communication bridge for the F1TENTH gym environment turning it into a simulation in ROS2.
+Description: This guide provides step-by-step instructions on how to set up the F1TENTH Gym environment with a ROS2 communication bridge on different systems including Ubuntu. By following this guide, you'll have a containerized ROS communication bridge for the F1TENTH gym environment turning it into a simulation in ROS2.
 
 ## Table of Contents
 1. [Prerequisites](#prerequisites)
@@ -9,11 +9,9 @@ Description: This guide provides step-by-step instructions on how to set up the 
 <a name="prerequisites"></a>
 ## 1. Prerequisites
 - Ubuntu 20.04 (for native installation)
-- Docker with NVIDIA-docker2 support (for systems with NVIDIA GPU)
-- noVNC (for Windows 10, macOS, and Ubuntu without an NVIDIA GPU)
 
 <a name="native-ubuntu"></a>
-## 2. Installation on Ubuntu 20.04 (Native)
+## 2. Installation on Ubuntu 20.04 
 ### Dependencies Installation:
 1. Install ROS 2 Foxy by following the instructions [here](https://index.ros.org/doc/ros2/Installation/Foxy/Linux-Install-Debians/).
 2. Set up the F1TENTH Gym:
