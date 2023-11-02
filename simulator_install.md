@@ -4,7 +4,7 @@ Description: This guide provides step-by-step instructions on how to set up the 
 
 ## Table of Contents
 1. [Prerequisites](#prerequisites)
-2. [Installation on Ubuntu 20.04 (Native)](#native-ubuntu)
+2. [Installation on Ubuntu 20.04](#native-ubuntu)
 
 <a name="prerequisites"></a>
 ## 1. Prerequisites
