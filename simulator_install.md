@@ -49,7 +49,7 @@ Ensure to test the setup to confirm the simulation runs successfully in the ROS2
 
 The provided container includes `tmux`, which allows for creating multiple bash sessions in the same terminal. Follow the steps below to launch the simulation.
 
-1. **Source Scripts**:
+1. Source Scripts:
     Ensure you source both the ROS2 setup script and the local workspace setup script in a bash session from the container.
     ```bash
     $ source /opt/ros/foxy/setup.bash
@@ -57,7 +57,7 @@ The provided container includes `tmux`, which allows for creating multiple bash 
     $ source $HOME/ros2_foxy/install/local_setup.bash
     ```
 
-2. **Launch Simulation**:
+2. Launch Simulation:
     Now launch the simulation using the following command:
     ```bash
     $ ros2 launch f1tenth_gym_ros gym_bridge_launch.py
@@ -65,7 +65,7 @@ The provided container includes `tmux`, which allows for creating multiple bash 
 
     A `rviz` window should pop up showing the simulation. The display will appear either on your host system or in the browser window, depending on the display forwarding option you chose.
 
-3. **Running Additional Nodes**:
+3. Running Additional Nodes:
     To run another node, create a new bash session in `tmux`. For example, to create a new session, you can use the following command:
     ```bash
     $ tmux new -s session_name
