@@ -36,7 +36,7 @@ Description: This guide provides step-by-step instructions on how to set up the 
 4. Install dependencies with rosdep:
    ```bash
    source /opt/ros/foxy/setup.bash
-   cd ..
+   cd $HOME/sim_ws/
    rosdep install -i --from-path src --rosdistro foxy -y
    ```
 5. Build the workspace:
